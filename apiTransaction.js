@@ -2,10 +2,10 @@ const API_KEY = "59e46ba523d3354de77e57b1c3a66837";
 const IMAGE_URL = "https://image.tmdb.org/t/p/w500";
 
 const url =
-  "https://api.themoviedb.org/3/search/movie?api_key=2f0e8537e29cc979d65a738d10c3d77f";
+  "https://api.themoviedb.org/3/search/movie?api_key=59e46ba523d3354de77e57b1c3a66837";
 
 function generateUrl(path) {
-  const url = `https://api.themoviedb.org/3${path}?api_key=2f0e8537e29cc979d65a738d10c3d77f`;
+  const url = `https://api.themoviedb.org/3${path}?api_key=59e46ba523d3354de77e57b1c3a66837&language=pt-BR`;
   return url;
 }
 

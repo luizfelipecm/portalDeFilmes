@@ -286,9 +286,26 @@ section img{
 }
 
 .content-display{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer > a:link{
     text-decoration: none;
+}
+
+.paragrafoTitle{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.paragrafoOverview{
+    font-style: italic;
+}
+
+.paragrafoHomepage{
+    color:black;
 }
